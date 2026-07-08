@@ -5,3 +5,11 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# Raw footage and rendered videos stay local — never commit them (public repo).
+footage/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
